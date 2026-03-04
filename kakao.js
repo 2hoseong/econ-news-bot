@@ -79,8 +79,8 @@ async function sendToKakao(text) {
         object_type: "text",
         text: text?.toString?.() ?? "",
         link: {
-            web_url: "https://mail.google.com",       // ✅ 버튼 눌렀을 때 gmail로
-            mobile_web_url: "https://mail.google.com" // ✅ 모바일도 gmail로
+            web_url: "https://2hoseong.github.io/econ-news-bot/redirect.html",
+            mobile_web_url: "https://2hoseong.github.io/econ-news-bot/redirect.html",
         },
         button_title: "Gmail 열기",
     };
